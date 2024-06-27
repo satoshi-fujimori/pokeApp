@@ -11,11 +11,11 @@ INSERT INTO monsters
 VALUES
 (
    1,
-   'フジギダネ',
-   10,
-   10,
-   'http://www',
-   'leaf',
+   'フシギダネ',
+   7,
+   69,
+   'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png',
+   'grass,poison',
    CURRENT_TIMESTAMP
 ),
 
