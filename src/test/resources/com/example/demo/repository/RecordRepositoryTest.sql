@@ -17,9 +17,6 @@ CREATE TABLE records
    monster_id INTEGER REFERENCES monsters (id) ON DELETE CASCADE,
    created_at TIMESTAMP WITHOUT TIME ZONE
 );
-
-
-
 INSERT INTO monsters
 (
    no,
@@ -33,21 +30,11 @@ INSERT INTO monsters
 VALUES
 (
    1,
-   'ふしぎだね',
-   10,
-   10,
-   'http://www',
-   'leaf',
-   CURRENT_TIMESTAMP
-),
-
-(
-   2,
-   'ふしぎばな',
-   20,
-   20,
-   'http://www',
-   'leaf',
+   'フシギダネ',
+   7,
+   69,
+   'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png',
+   'grass,poison',
    CURRENT_TIMESTAMP
 );
 INSERT INTO records
@@ -58,10 +45,5 @@ INSERT INTO records
 VALUES
 (
    1,
-   CURRENT_TIMESTAMP
-),
-
-(
-   2,
    CURRENT_TIMESTAMP
 );
